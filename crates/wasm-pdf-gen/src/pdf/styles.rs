@@ -3,6 +3,8 @@
 use super::json::{get_bool_from_js, get_number_from_js, JsContent, JsParamValue};
 
 #[derive(Debug, Clone, Copy)]
+
+//NO Idea what this actually does 
 pub enum VerticalAlign {
     Top,
     Middle,
